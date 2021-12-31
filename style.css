@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+header{
+    width: 100vw;
+    height: 12vh;
+    background-image: url("images/header-bg.jpg");
+    background-size: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 25%;
+    height: 100%;
+}
+header h1{
+    text-align: center;
+    font-size: 3.5em;
+    color: aquamarine;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #791858;
+    letter-spacing: 2px;
+    padding: 0.1em 0 0.1em 0;
+}
+header div{
+    width: 15%;
+    display: inline-block;
+    padding: 0.5em;
+}
+header div h2{
+    text-align: center;
+    font-size: 1.5em;
+    color: #fee;
+    text-shadow: 2px 2px 2px #c7196a;
+}
+
+#container{
+    width: 100vw;
+    height: 83vh;
+   /* background-image: url("https://media.gettyimages.com/photos/corona-virus-picture-id1215406880?k=6&m=1215406880&s=612x612&w=0&h=yfYYZKXoWG6PgimY-5SxYM1fF_IYu2J9HHhYvz2BFrs=");
+    background-size: 100vw;*/
+    display: flex;
+}
+
+.bg{
+    width: 100vw;
+    height: 83vh;
+    background-image: url("images/bg-image.gif");
+    margin-right: 0;
+    background-size: 75vw 90vh;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    position: absolute;
+}
+#side{
+    height: 85%;
+    width: 20%;
+    border: 5px solid  #eb062cef;
+    box-shadow: 0 0 0.2em #eb062cef;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+    overflow: auto;
+}
+
+
+#content{
+    height: 85%;
+    width: 75%;
+    border: 5px solid  #eb062cef;
+    border-radius: 5px 20px 20px 5px;
+    padding: 1em;
+    margin: 1em;
+    overflow: auto;
+}  
+#content canvas{
+    height: 100% !important;
+}
+
+footer{
+    height: 4.5vh;
+    width: 100vw;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #eb062cef;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.country{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0.1em;
+    margin-bottom: 0.3em;
+    border: 2px solid #eb062cef;
+    border-radius: 15px;
+    color: #d30124ef;
+    font-size: large;
+}
+.country:hover{
+    background-color: #eb062cef;
+    border: none;
+    color: #fff6f6;
+    letter-spacing: 0.75px;
+    box-shadow: 0 0 0.1em #eb062cef;
+    transition: .3s;
+}
